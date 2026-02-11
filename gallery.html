@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    ><link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+    <!--navbar na ginawa na kanina-->
+    <nav>
+        <div class="navbar-container">
+            <a href="index.html" class="logo">Life</a>
+            <button class="navbar-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="navbar-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </div>
+    </nav>
+
+<!--nain container ng buong gallery section -->
+<div class="gallery-container">
+    
+    <!--title ng unang section: Favorite Anime -->
+    <h2 class="section-title">Favorite Anime</h2>
+
+    <!--grid layout na maglalaman ng mga anime items -->
+    <div class="gallery-grid">
+
+        <!--isang gallery item (K-ON) -->
+        <div class="gallery-item">
+
+            <!--link na magbubukas ng video file sa bagong tab -->
+            <a target="_blank" href="k-on.mp4">
+
+                <!--video element na auto-play, muted, at naka-loop -->
+                <video autoplay muted loop>
+
+                    <!--source ng video file at file type -->
+                    <source src="k-on.mp4" type="video/mp4">
+
+                </video>
+            </a>
+
+            <!--description o caption ng video -->
+            <div class="desc">1. K-ON</div>
+        </div>
+
+        <!--isang gallery item (Violet Evergarden) -->
+        <div class="gallery-item">
+            <a target="_blank" href="violet.mp4">
+                <video autoplay muted loop>
+                    <source src="violet.mp4" type="video/mp4">
+                </video>
+            </a>
+            <!--pangalan ng anime na naka-display sa baba -->
+            <div class="desc">2. Violet Evergarden</div>
+        </div>
+
+        <!--isang gallery item (School Live) -->
+        <div class="gallery-item">
+            <a target="_blank" href="sl.mp4">
+                <video autoplay muted loop>
+                    <source src="sl.mp4" type="video/mp4">
+                </video>
+            </a>
+            <!--caption ng ikatlong anime -->
+            <div class="desc">3. School Live</div>
+        </div>
+
+    </div> <!--end ng Favorite Anime grid -->
+
+
+
+    <!--title ng pangalawang section: Favorite Football Players -->
+    <h2 class="section-title">Favorite Football Players</h2>
+
+    <!--grid layout para sa football players -->
+    <div class="gallery-grid">
+
+        <!--gallery item para kay Son Heung Min -->
+        <div class="gallery-item">
+            <a target="_blank" href="son.mp4">
+                <video autoplay muted loop>
+                    <source src="son.mp4" type="video/mp4">
+                </video>
+            </a>
+            <!--pangalan ng player -->
+            <div class="desc">1. Son Heung Min</div>
+        </div>
+
+        <!--gallery item para kay Lionel Messi -->
+        <div class="gallery-item">
+            <a target="_blank" href="messi.mp4">
+                <video autoplay muted loop>
+                    <source src="messi.mp4" type="video/mp4">
+                </video>
+            </a>
+            <!--pangalan ng player -->
+            <div class="desc">2. Lionel Messi</div>
+        </div>
+
+        <!--gallery item para kay Cristiano Ronaldo -->
+        <div class="gallery-item">
+            <a target="_blank" href="ronaldo.mp4">
+                <video autoplay muted loop>
+                    <source src="ronaldo.mp4" type="video/mp4">
+                </video>
+            </a>
+            <!--pangalan ng player -->
+            <div class="desc">3. Cristiano Ronaldo</div>
+        </div>
+
+    </div> <!--end ng Football Players grid -->
+
+
+
+    <!--title ng pangatlong section: Favorite Esports Team -->
+    <h2 class="section-title">Favorite Esports Team</h2>
+
+    <!--grid layout para sa esports team -->
+    <div class="gallery-grid">
+
+        <!--gallery item para sa T1 -->
+        <div class="gallery-item">
+            <a target="_blank" href="t1.mp4">
+                <video autoplay muted loop>
+                    <source src="t1.mp4" type="video/mp4">
+                </video>
+            </a>
+            <div class="desc">1. T1</div>
+        </div>
+
+    </div> <!--end ng Esports Team grid -->
+
+     <!--title ng pangatlong section: Favorite Football Team -->
+    <h2 class="section-title">Favorite Football Team</h2>
+
+    <!--grid layout para sa football team -->
+    <div class="gallery-grid">
+
+        <!--gallery item para sa Tottenham Hotspur -->
+        <div class="gallery-item">
+            <a target="_blank" href="tottenham.mp4">
+                <video autoplay muted loop>
+                    <source src="tottenham.mp4" type="video/mp4">
+                </video>
+            </a>
+            <div class="desc">1. Tottenham Hotspur</div>
+        </div>
+
+    </div> <!--end ng Football Team grid -->
+
+
+</div> <!--end ng main gallery container -->
+
+</body>
+</html>
