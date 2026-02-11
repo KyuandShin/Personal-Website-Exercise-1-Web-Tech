@@ -1,0 +1,47 @@
+<!-- ang start ng document ay doctype, ito ay para malaman na HTML 5 ang html file na ito-->
+<!DOCTYPE html>
+<html lang="en">
+<!--HTML LANG EN ay para malaman na English ang language na gagamitin-->
+<head>
+    <!--head part ng html na sinasabi ang mga requirements ng isang html file -->
+    <meta charset="utf-8">
+    <!--eto ay para sa special characters na magagamit katulad ng #-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--eto ay para sa responsive design ng webpage, para mag adjust ang webpage sa iba't ibang screen size-->
+    <title>Mi Casa Life Test</title>
+    <!--title ng webpage-->
+    <link rel="stylesheet" href="styles.css">
+    <!--link ng css file para sa design ng webpage-->
+</head>
+<!--end ng head-->
+<body> 
+    <!--start ng body which is ilalagay lahat ng information-->
+   <nav>
+    <!--eto ay para sa navigation bar ng webpage-->
+        <div class="navbar-container">
+            <!--eto ay para sa logo ng webpage, kapag na click ito ay babalik sa home page-->
+            <a href="index.html" class="logo">Life</a>
+            <!--eto ay para sa toggle button ng navigation bar, kapag na click ito ay magpapakita ng menu-->
+            <button class="navbar-toggle">
+                <!--eto ay para sa mga bar ng toggle button-->
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <!--eto ay para sa menu ng navigation bar, kapag na click ang toggle button ay magpapakita ito-->
+            <ul class="navbar-menu">
+                <!--eto ay para sa mga link ng navigation bar, kapag na click ito ay magdadala sa ibang page-->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="home">
+        <!--eto ay para sa home page ng webpage, dito ilalagay ang welcome message at profile picture-->
+        <h1>Welcome to My Life</h1>
+        <p>This is a website about my life! I am Sean Carlo Vibar Masaya, a student at Laguna State Polytechnic University, San Pablo City Campus, currently pursuing a Bachelor of Science in Information Technology.</p>
+        <img src="profile.jpg" alt="Home Image">
+    </div>
+</body>
